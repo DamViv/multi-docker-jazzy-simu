@@ -1,0 +1,6 @@
+[submodule "gz_simulator"]
+	path = gz_simulator
+	url = git@github.com:DamViv/gz_simulator.git
+[submodule "ros_jazzy_nav"]
+	path = ros_jazzy_nav
+	url = git@github.com:DamViv/ros-jazzy-nav.git
