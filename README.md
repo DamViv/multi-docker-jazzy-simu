@@ -20,25 +20,27 @@ Each container launches a Terminator terminal with predefined layouts for ease o
 
 ## Directory Structure
 
+```text
 multi-docker-jazzy-simu/
 ├── ros_jazzy_nav/
-│ └── Dockerfile
-│ └── docker-compose.yml
-│ └── launch.sh
-│ └── build.sh
-│ └── terminatorLayout.txt
-│ └── ws
+│   ├── Dockerfile
+│   ├── docker-compose.yml
+│   ├── launch.sh
+│   ├── build.sh
+│   ├── terminatorLayout.txt
+│   └── ws/
 ├── ros_jazzy_gz_simulator/
-│ └── Dockerfile
-│ └── docker-compose.yml
-│ └── launch.sh
-│ └── build.sh
-│ └── terminatorLayout.txt
-│ └── ws
+│   ├── Dockerfile
+│   ├── docker-compose.yml
+│   ├── launch.sh
+│   ├── build.sh
+│   ├── terminatorLayout.txt
+│   └── ws/
 ├── docker-compose.yml
 ├── terminatorLayout.txt
 ├── launch.sh
 └── build.sh
+
 
 
 ---
