@@ -40,7 +40,7 @@ multi-docker-jazzy-simu/
 ├── terminatorLayout.txt
 ├── launch.sh
 └── build.sh
-
+```
 
 
 ---
@@ -52,11 +52,14 @@ multi-docker-jazzy-simu/
 ```bash
 git clone --recurse-submodules https://github.com/DamViv/multi-docker-jazzy-simu.git
 cd multi-docker-jazzy-simu
+```
 
 ### 2. Build and launch both dockers**
 
+```bash
 ./build.sh
 ./launch.sh
+```
 
 This will :
 - Stop any existing containers
@@ -65,11 +68,14 @@ This will :
 
 
 ### 3. Build and launch only one of the docker**
-
+```bash
 ./ros_jazzy_gz_simulator/build.sh
 ./ros_jazzy_gz_simulator/launch.sh
+```
 OR
+```bash
 ./gz_simulator/build.sh
 ./gz_simulator/launch.sh
+```
 
 
